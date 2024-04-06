@@ -12,6 +12,7 @@ Feature: Smoke steps
     # Then I wait for 2 sec
     Then I wait for element with xpath "//*[@id='res']" to be present
     Then I should see page title contains "- Google Search"
+    Then I take screenshot
     Then element with xpath "//*[@id='res']" should contain text "Cucumber"
 
   Scenario: Bing search engine
